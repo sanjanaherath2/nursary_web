@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     LandingComponent,
     NavbarComponent,
     WelcomeComponent,
+    AdminDashboardComponent,
     
   ],
   imports: [
