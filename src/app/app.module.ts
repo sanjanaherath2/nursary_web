@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
-import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard.component';
+import {AdminDashboardComponent} from './components/admin/admin-dashboard/admin-dashboard.component';
+import { UserProfileComponent } from './components/user/user-profile/user-profile.component';
+
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { AdminDashboardComponent } from './admin/admin-dashboard/admin-dashboard
     NavbarComponent,
     WelcomeComponent,
     AdminDashboardComponent,
+    UserProfileComponent
+   
     
   ],
   imports: [
