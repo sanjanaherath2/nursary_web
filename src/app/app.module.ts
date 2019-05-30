@@ -11,6 +11,10 @@ import { UserProfileComponent } from './components/user/user-profile/user-profil
 import { AuthComponent } from './components/auth/auth.component';
 import { SignInComponent } from './components/auth/sign-in/sign-in.component';
 import { RegisterComponent } from './components/auth/register/register.component';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
+
 
 
 
@@ -30,7 +34,9 @@ import { RegisterComponent } from './components/auth/register/register.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebase),
+ 	AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
