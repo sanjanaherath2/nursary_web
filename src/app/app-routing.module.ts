@@ -8,7 +8,7 @@ import { from } from 'rxjs';
 const routes: Routes = [
   { path: '', component: LandingComponent},
 
-  
+   
 
  // Auth routes
 
